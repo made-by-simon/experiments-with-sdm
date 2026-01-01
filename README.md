@@ -8,13 +8,22 @@ Sparse Distributed Memory (SDM) is an associative (distributed) memory model ins
 
 ## Contents
 
-- Readme file `README.md`: Information file (you are currently reading it).
-- Jupyter notebook `experiments.ipynb`: Various experiments with Sparse Distributed Memory.
-- Python code `kanerva_sdm.py`: Implementation of core SDM functionality (initializing, writing, reading, erasing) in Python. 
-- Folder `cpp`: Files and code related to implementing SDM in C++. 
-    - C++ header `kanerva_sdm.h`: Implementation of core SDM functionality (initializing, writing, reading, erasing) in C++. 
-    - Folder `bindings`: Files and code for creating Python bindings to the C++ SDM implementation. 
-    - 
+```
+experiments-with-sdm-main/  
+├── cpp/                       
+│   ├── src/                    
+│   │   ├── bindings.cpp
+│   │   └── kanerva_sdm.h
+│   ├── kanerva_sdm.py
+│   ├── pyproject.toml
+│   ├── setup.py
+│   └── speed_test.ipynb
+├── .gitignore
+├── README.md
+├── experiments.ipynb
+└── kanerva_sdm.py
+```
+
 ## Requirements
 
 
