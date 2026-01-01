@@ -26,4 +26,14 @@ experiments-with-sdm-main/
 
 ## Requirements
 
+- `numpy` 
+- `matplotlib`
+- `tqdm`
+
+## Setting up the C++ implementation. 
+
+1. Create a virtual environment (venv) in the directory `cpp`. 
+2. Install `numpy`, `matplotlib`, `tqdm` and `pybind11` in the venv's terminal using: `pip install numpy matplotlib, tqdm pybind11`. 
+3. Install the C++ version of the `kanerva_sdm` module using `pip install .`.
+
 
