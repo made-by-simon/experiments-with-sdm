@@ -211,3 +211,5 @@ __pycache__/
 cpp/build/
 cpp/__pycache__
 cpp/.venv
+.venv/
+__pycache__/
