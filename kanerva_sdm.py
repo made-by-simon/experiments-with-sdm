@@ -9,7 +9,7 @@ Hamming distance activation.
 Reference:
     Pentti Kanerva (1992). Sparse Distributed Memory and Related Models.
 
-(c) 2025 Simon Wong
+(c) 2026 Simon Wong
 """
 
 import numpy as np 
